@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100%;
+            background-color: orange;
+        }
+        .container{
+            background-color: rgb(124, 118, 118);
+        }
+        #first{
+            background-color:tomato;
+        }
+        #second{
+            background-color: indigo;
+        }
+        #third{
+            background-color: burlywood;
+        }
+        .effect::after{
+            content: "New";
+            font-size: 20px;
+            background-color: red;
+            
+        }
+        #h1content{
+            text-align: center;
+            background-color: cornflowerblue;
+        }
+        .background{
+            background-color: darkgray;
+        }
+
+    </style>
+
+
 </head>
 <body>
-    <h1>My first ever website!</h1>
+    <section class="container">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>
+    </section>
+
+    <section class="background">
+        <h1 id="h1content" class="effect">My first ever website!</h1>
     <h3>Look mama!! I can push github</h3>
     <p> I am a Ghost</p>
+    <p>Felling happy</p>
     <input type="text">
-    <br>
+    
     <button>click me babby!!</button>
+    </section>
+
+    </div>
+    
 </body>
+<footer>
+
+</footer>
 </html>
